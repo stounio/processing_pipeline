@@ -1,0 +1,21 @@
+{
+  "name": "processing_pipeline",
+  "version": "1.0.0",
+  "description": "Tutorial for building a processing pipeline using Javascript",
+  "main": "processing_pipeline.js",
+  "directories": {
+    "lib": "src",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "author": "guillaume pichot",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^9.1.2",
+    "nyc": "^15.1.0"
+  }
+}
