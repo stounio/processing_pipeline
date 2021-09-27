@@ -15,4 +15,9 @@ describe('Delete items by criteria', () => {
     const result = await deleteItemsByCriteria('NO_MATCH');
     expect(result).to.eq(0);
   });
+
+  it('should delete one item when the criteria matches', async () => {
+    const result = await deleteItemsByCriteria('MATCH');
+    expect(result).to.eq(1);
+  });
 });
