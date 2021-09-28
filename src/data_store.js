@@ -1,3 +1,5 @@
 const retrieveItems = (criteria) => undefined;
 
-module.exports = { retrieveItems };
+const deleteItem = async (id) => undefined;
+
+module.exports = { retrieveItems, deleteItem };
