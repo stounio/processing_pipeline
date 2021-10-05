@@ -34,7 +34,7 @@ beforeEach('Reset data store stub', () => {
 
 describe('Delete items by criteria', () => {
   it('should reject the call by default', async () => {
-    expect(deleteItemsByCriteria()).to.be.rejected;
+    return expect(deleteItemsByCriteria()).to.be.rejected;
   });
 
   it('should not delete items when the criteria does not match', async () => {
